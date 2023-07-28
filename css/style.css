@@ -1,5 +1,5 @@
 html{scroll-behavior: smooth;}
-body{margin:0px;width:100vh}
+body{margin:0px}
 @font-face {
     font-family: SamsungSharpSans;
     src: url("../font/SamsungSharpSansBd.ttf");
