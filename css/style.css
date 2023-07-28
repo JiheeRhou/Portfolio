@@ -121,7 +121,7 @@ p,a,li,td,label,input,::placeholder{
     font-size: 2vh;
 }
 .about > div, .projects > div{
-    width: 750px;   
+    width: 75vh;   
 }
 .about > div > div:not(:last-child){
     margin-bottom: 85px;   
