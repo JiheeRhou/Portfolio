@@ -120,9 +120,6 @@ p,a,li,td,label,input,::placeholder{
 .about p, .projects p{
     font-size: 2vh;
 }
-.about > div, .projects > div{
-    width: 75vh;   
-}
 .about > div > div:not(:last-child){
     margin-bottom: 85px;   
 }
