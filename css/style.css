@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{
 p,a,li,td,label,input,::placeholder{
     text-decoration: none;
     font-family: SamsungOne;
-    font-size: 20px;
+    font-size: 2vh;
     color: #0e0e0e;
 }
 .nav{
