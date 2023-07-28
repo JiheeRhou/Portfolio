@@ -79,13 +79,13 @@ p,a,li,td,label,input,::placeholder{
 }
 .home h1{
     margin: 10px;
-    font-size: 20vh;
+    font-size: 12vh;
     text-align: center;
 }
 .home h2{
     margin: 30px 10px;
     color: #f9f9f9;
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
 }
 .about, .projects{
@@ -121,7 +121,7 @@ p,a,li,td,label,input,::placeholder{
     font-size: 2vh;
 }
 .about > div, .projects > div{
-    width: 75vh;   
+    width: 750px;   
 }
 .about > div > div:not(:last-child){
     margin-bottom: 85px;   
