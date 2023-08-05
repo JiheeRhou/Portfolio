@@ -39,10 +39,10 @@ p,a,li,td,label,input,::placeholder{
 .nav nav menu{
     list-style: none;
     display: flex;
-    margin-right: 30px;
+    padding-right: 30px;
 }
 .nav nav menu li{
-    padding: 0px 30px;
+    padding: 0 3vh;
 }
 .nav nav menu li a{
     color: #0e0e0e;
@@ -124,15 +124,19 @@ p,a,li,td,label,input,::placeholder{
     margin-bottom: 85px;   
 }
 .about li, .projects li{
-    font-size: 2vh;
+    font-size: 1.8vh;
     padding: 5px;
+    word-break: break-word;
+}
+.projects > div {
+    width: 100%;
 }
 .project_img{
-    margin: 50px;
+    margin: 3vh;
     text-align: center;
 }
 .projects img {
-    width: 60vh;
+    width: 100%;
     cursor: pointer;
 }
 .project_info p {
