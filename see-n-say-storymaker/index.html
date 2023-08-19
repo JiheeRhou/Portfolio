@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- 200521364 Ji Hee Rhou, 200530592 Jing-xian Wu -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <h1>Mattel® ‘See ‘N’ Say Storymaker’</h1>
+    <!--for story text-->
+    <div class="paragraph"></div>
+    <div class="components">
+      <div class="column">
+        <button id="s">1</button>
+        <ul></ul>
+        <input type="text" class="textAdd" id="addSValue" />
+        <input
+          type="button"
+          class="buttonAdd"
+          id="addSButton"
+          value="+"
+          onclick="addList('S')"
+        />
+      </div>
+      <div class="column">
+        <button id="v">2</button>
+        <ul></ul>
+        <input type="text" class="textAdd" id="addVValue" />
+        <input
+          type="button"
+          class="buttonAdd"
+          id="addVButton"
+          value="+"
+          onclick="addList('V')"
+        />
+      </div>
+      <div class="column">
+        <button id="a">3</button>
+        <ul></ul>
+        <input type="text" class="textAdd" id="addAValue" />
+        <input
+          type="button"
+          class="buttonAdd"
+          id="addAButton"
+          value="+"
+          onclick="addList('A')"
+        />
+      </div>
+      <div class="column">
+        <button id="o">4</button>
+        <ul></ul>
+        <input type="text" class="textAdd" id="addOValue" />
+        <input
+          type="button"
+          class="buttonAdd"
+          id="addOButton"
+          value="+"
+          onclick="addList('O')"
+        />
+      </div>
+      <div class="column">
+        <button id="pp">5</button>
+        <ul></ul>
+        <input type="text" class="textAdd" id="addPpValue" />
+        <input
+          type="button"
+          class="buttonAdd"
+          id="addPpButton"
+          value="+"
+          onclick="addList('Pp')"
+        />
+      </div>
+    </div>
+    <div class="functionalBtn">
+      <button id="text">Speak the Story</button>
+      <button id="random">Random Story</button>
+      <button id="reset">reset the Story</button>
+      <button id="myStory">Make my Story</button>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
