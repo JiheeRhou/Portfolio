@@ -1,0 +1,87 @@
+/* 200521364 Ji Hee Rhou, 200530592 Jing-xian Wu */
+
+html {
+  background: linear-gradient(135deg, rgb(120, 153, 242), rgb(104, 238, 133));
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 0 0 0;
+  color: #023c99;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+section {
+  display: flex;
+  align-items: center;
+}
+
+figcaption {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  font-style: italic;
+}
+
+#isAuto {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  width: 130px;
+  height: 35px;
+  border: 5px solid #091b93;
+  border-radius: 10%;
+}
+
+#isAuto:hover {
+  cursor: pointer;
+  background-color: #091b93;
+  color: white;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+figure {
+  width: 80%;
+}
+
+div {
+  margin: 0 2rem 0 0;
+  width: 15%;
+  height: auto;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  height: auto;
+}
+
+li img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  filter: grayscale(100%);
+  border-radius: 10%;
+}
+
+li img:hover {
+  filter: grayscale(0%) !important;
+}
