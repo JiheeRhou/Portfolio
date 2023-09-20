@@ -131,6 +131,17 @@ p,a,li,td,label,input,::placeholder {
     padding: 5px;
     word-break: break-word;
 }
+.education > div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.education > div p {
+    min-width: 120px;
+}
 .project {
     display: flex;
     flex-direction: column;
