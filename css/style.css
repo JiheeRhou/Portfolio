@@ -1,5 +1,5 @@
-html{scroll-behavior: smooth;}
-body{margin:0px}
+html {scroll-behavior: smooth;}
+body {margin:0px}
 @font-face {
     font-family: SamsungSharpSans;
     src: url("../font/SamsungSharpSansBd.ttf");
@@ -8,16 +8,16 @@ body{margin:0px}
     font-family: SamsungOne;
     src: url("../font/SamsungOne-700.ttf");
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6 {
     font-family: SamsungSharpSans;
 }
-p,a,li,td,label,input,::placeholder{
+p,a,li,td,label,input,::placeholder {
     text-decoration: none;
     font-family: SamsungOne;
     font-size: 2vh;
     color: #0e0e0e;
 }
-.nav{
+.nav {
     position: fixed;
     width: 100%;
     background: #f9f9f9;
@@ -26,40 +26,40 @@ p,a,li,td,label,input,::placeholder{
     display: flex;
     align-items: center;
 }
-.nav div{
+.nav div {
     width: auto;
     height: 40px;
     flex-grow: 1;
 }
-.nav div a img{
+.nav div a img {
     filter: drop-shadow(5px 4px 3px #0e0e0e);
     width: auto;
     height: 40px;
 }
-.nav nav menu{
+.nav nav menu {
     list-style: none;
     display: flex;
     padding-right: 30px;
 }
-.nav nav menu li{
+.nav nav menu li {
     padding: 0 3vh;
 }
-.nav nav menu li a{
+.nav nav menu li a {
     color: #0e0e0e;
 }
-.nav nav menu li a:hover{
+.nav nav menu li a:hover {
     filter: drop-shadow(5px 4px 3px #0e0e0e);
     transition: all .25s ease-in-out;
     border-bottom: solid 2px #0e0e0e;
 }
-.nav a:hover, .nav a:active, .nav a:focus, .nava:visited{
+.nav a:hover, .nav a:active, .nav a:focus, .nav:visited {
     color: #0e0e0e;
 }
-.home{
+.home {
     width: auto;
     height: 100vh;
 }
-.home div{
+.home div {
     background-color: rgba(0,0,0,.8);
     color: #f9f9f9;
     transition-property: background-color, color;
@@ -73,65 +73,73 @@ p,a,li,td,label,input,::placeholder{
     flex-direction: column;
     padding: 0px;
 }
-.home div:hover{
+.home div:hover {
     background-color: rgba(9, 126, 44, 0.8);
     color: #fa15d4;
 }
-.home h1{
+.home h1 {
     margin: 10px;
     font-size: 12vh;
     text-align: center;
 }
-.home h2{
+.home h2 {
     margin: 30px 10px;
     color: #f9f9f9;
     font-size: 4vh;
     text-align: center;
 }
-.about, .projects{
+.about, .projects {
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
     padding: 50px;
 }
-.about h2, .projects h2{
+.about > div, .projects > div {
+    width: 60vw;
+}
+.about h2, .projects h2, .contact h2 {
     filter: drop-shadow(5px 4px 3px #0e0e0e);
     text-align: center;
     font-size: 8vh;
     font-weight: 800;
 }
-.about h3, .projects h3{
+.about h3, .projects h3 {
     border-bottom: solid 2px #0e0e0e;
     font-size: 4vh;
     font-weight: 800;
 }
-.about h4{
+.about h4 {
     background-color: #0e0e0e;
     color:#f4f4f4;
     padding: 15px;
     margin-bottom: 0;
     font-size: 3vh;
 }
-.about h5{
+.about h5 {
     font-size: 2.5vh;
     margin: 0;
 }
-.about p, .projects p{
+.about p, .projects p {
     font-size: 2vh;
 }
-.about > div > div:not(:last-child){
+.about > div > div:not(:last-child) {
     margin-bottom: 85px;   
 }
-.about li, .projects li{
+.about li, .projects li {
     font-size: 1.8vh;
     padding: 5px;
     word-break: break-word;
 }
-.projects > div {
-    width: 100%;
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.project_img{
+.project_img {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
     margin: 3vh;
     text-align: center;
 }
@@ -147,19 +155,28 @@ p,a,li,td,label,input,::placeholder{
     font-family: Longreach;
     src: url("../font/DK Longreach.otf");
 }
-.contacts{
-    padding: 30px;
-    background-color: rgba(220, 220, 220, .3);
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
 }
-
-footer{
+.contact ul {
+    list-style: none;
+}
+.contact li {
+    font-size: 3.2vh;
+    padding: 10px;
+    word-break: break-word;
+}
+footer {
     display: grid;
     justify-items: center;
     background: #0e0e0e;
     padding: 20px;
     color: #f4f4f4;
 }
-footer h5{
+footer h5 {
     color: #f4f4f4;
     left: 20px;
 }
