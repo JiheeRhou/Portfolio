@@ -42,7 +42,7 @@ p,a,li,td,label,input,::placeholder {
     padding-right: 30px;
 }
 .nav nav menu li {
-    padding: 0 2vh;
+    padding: 0 2vw;
 }
 .nav nav menu li a {
     color: #0e0e0e;
@@ -141,7 +141,7 @@ p,a,li,td,label,input,::placeholder {
 }
 .education > div p {
     min-width: 120px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .project {
     display: flex;
