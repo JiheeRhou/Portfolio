@@ -155,9 +155,22 @@ p,a,li,td,label,input,::placeholder {
     margin: 3vh;
     text-align: center;
 }
+.project_img_3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 3vh;
+    text-align: center;
+}
 .projects img {
     width: 100%;
     cursor: pointer;
+}
+.project_img_3 img {
+    max-width: 150px;
+    width: 100%;
+    margin: 1vh;
 }
 .project_info p {
     font-size: 1.5vh;
